@@ -17,8 +17,8 @@ import java.util.List;
  */
 public interface Etc01Repository {
 
-    public List<Etc01> get5minsdata(Timestamp forlast5minstime);
+    public List<Etc01> get5minsdata(Timestamp forlast5minstime,int end_site);
 
-    public List<Etc01> get2hoursdata(Timestamp forlast2hourstime);
+    public Etc01 get2hoursdata(Timestamp forlast2hourstime,int start_site, String epc);
 
 }

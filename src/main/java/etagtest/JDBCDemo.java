@@ -85,11 +85,11 @@ public class JDBCDemo {
 //                   RealtimeTraveltime     
         
         
-                   List<Etc01> datalist5mins=etc01data.get5minsdata(forlast5mins);
-                   List<Etc01> datalist2hours=etc01data.get2hoursdata(forlast2hour);   
-                   System.out.println(datalist5mins.size());
-                   System.out.println(datalist2hours.size());
-                   
+////                   List<Etc01> datalist5mins=etc01data.get5minsdata(forlast5mins);
+////                   List<Etc01> datalist2hours=etc01data.get2hoursdata(forlast2hour);   
+//                   System.out.println(datalist5mins.size());
+//                   System.out.println(datalist2hours.size());
+//                   
                    
                    
 //                   Timestamp createtime=testtimenow ;

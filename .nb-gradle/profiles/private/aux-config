@@ -5,26 +5,32 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
       <group>
-        <file>file:/C:/Users/62552/workspace/spring-tutorial/spring-tutorial_demo/src/main/java/demo/aop/AppConfig.java</file>
-        <file>file:/C:/Users/62552/workspace/spring-tutorial/spring-tutorial_demo/src/main/java/demo/backend/jdbc/Global.java</file>
-        <file>file:/C:/Users/62552/workspace/spring-tutorial/spring-tutorial_demo/src/main/java/demo/aop/DBTransactionManager.java</file>
-        <file>file:/C:/Users/62552/workspace/spring-tutorial/spring-tutorial_demo/src/main/java/demo/aop/App.java</file>
-        <file>file:/C:/Users/62552/workspace/spring-tutorial/spring-tutorial_demo/src/main/java/demo/aop/SystemLogger.java</file>
+        <file>file:/C:/Users/Hsu/Documents/GitHub/spring-tutorial_demo/src/main/java/demo/backend/jdbc/JDBCDemo.java</file>
+        <file>file:/C:/Users/Hsu/Documents/GitHub/spring-tutorial_demo/src/main/java/etagtest/RealtimeTraveltime.java</file>
+        <file>file:/C:/Users/Hsu/Documents/GitHub/spring-tutorial_demo/src/main/java/etagtest/DateSample.java</file>
+        <file>file:/C:/Users/Hsu/Documents/GitHub/spring-tutorial_demo/src/main/java/etagtest/JDBCDemo.java</file>
+        <file>file:/C:/Users/Hsu/Documents/GitHub/spring-tutorial_demo/src/main/java/etagtest/RouteIDRepository.java</file>
+        <file>file:/C:/Users/Hsu/Documents/GitHub/spring-tutorial_demo/src/main/java/etagtest/JdbcRealtimeTraveltimeRepository.java</file>
+        <file>file:/C:/Users/Hsu/Documents/GitHub/spring-tutorial_demo/src/main/java/etagtest/JdbcRouteIDRepository.java</file>
+        <file>file:/C:/Users/Hsu/Documents/GitHub/spring-tutorial_demo/src/main/java/etagtest/Route_ID.java</file>
+        <file>file:/C:/Users/Hsu/Documents/GitHub/spring-tutorial_demo/src/main/java/etagtest/Etc01.java</file>
+        <file>file:/C:/Users/Hsu/Documents/GitHub/spring-tutorial_demo/src/main/java/etagtest/JDBCConfig.java</file>
+        <file>file:/C:/Users/Hsu/Documents/GitHub/spring-tutorial_demo/src/main/java/etagtest/RealtimeTraveltimeRepository.java</file>
       </group>
     </open-files>
     <editor-bookmarks lastBookmarkId="0" xmlns="http://www.netbeans.org/ns/editor-bookmarks/2"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
       <group>
-        <file>file:/C:/Users/62552/workspace/spring-tutorial/spring-tutorial_demo/src/main/java/demo/aop/AppConfig.java</file>
-        <file>file:/C:/Users/62552/workspace/spring-tutorial/spring-tutorial_demo/src/main/java/demo/backend/jdbc/JdbcGlobalRepository.java</file>
-        <file>file:/C:/Users/62552/workspace/spring-tutorial/spring-tutorial_demo/src/main/java/demo/backend/jdbc/JDBCDemo.java</file>
-        <file>file:/C:/Users/62552/workspace/spring-tutorial/spring-tutorial_demo/src/main/java/demo/backend/jdbc/Global.java</file>
-        <file>file:/C:/Users/62552/workspace/spring-tutorial/spring-tutorial_demo/src/main/java/etagtest/JdbcEtag01Repository.java</file>
-        <file>file:/C:/Users/62552/workspace/spring-tutorial/spring-tutorial_demo/src/main/java/demo/aop/DBTransactionManager.java</file>
-        <file>file:/C:/Users/62552/workspace/spring-tutorial/spring-tutorial_demo/src/main/java/demo/backend/jdbc/GlobalRepository.java</file>
-        <file>file:/C:/Users/62552/workspace/spring-tutorial/spring-tutorial_demo/src/main/java/demo/aop/SystemLogger.java</file>
-        <file>file:/C:/Users/62552/workspace/spring-tutorial/spring-tutorial_demo/src/main/java/demo/aop/App.java</file>
-        <file>file:/C:/Users/62552/workspace/spring-tutorial/spring-tutorial_demo/src/main/java/demo/backend/jdbc/JDBCConfig.java</file>
+        <file>file:/C:/Users/Hsu/Documents/GitHub/spring-tutorial_demo/src/main/java/etagtest/RealtimeTraveltime.java</file>
+        <file>file:/C:/Users/Hsu/Documents/GitHub/spring-tutorial_demo/src/main/java/etagtest/DateSample.java</file>
+        <file>file:/C:/Users/Hsu/Documents/GitHub/spring-tutorial_demo/src/main/java/etagtest/JDBCDemo.java</file>
+        <file>file:/C:/Users/Hsu/Documents/GitHub/spring-tutorial_demo/src/main/java/etagtest/RouteIDRepository.java</file>
+        <file>file:/C:/Users/Hsu/Documents/GitHub/spring-tutorial_demo/src/main/java/etagtest/JdbcRealtimeTraveltimeRepository.java</file>
+        <file>file:/C:/Users/Hsu/Documents/GitHub/spring-tutorial_demo/src/main/java/etagtest/JdbcRouteIDRepository.java</file>
+        <file>file:/C:/Users/Hsu/Documents/GitHub/spring-tutorial_demo/src/main/java/etagtest/Route_ID.java</file>
+        <file>file:/C:/Users/Hsu/Documents/GitHub/spring-tutorial_demo/src/main/java/etagtest/Etc01.java</file>
+        <file>file:/C:/Users/Hsu/Documents/GitHub/spring-tutorial_demo/src/main/java/etagtest/JDBCConfig.java</file>
+        <file>file:/C:/Users/Hsu/Documents/GitHub/spring-tutorial_demo/src/main/java/etagtest/RealtimeTraveltimeRepository.java</file>
       </group>
     </open-files>
   </auxiliary>

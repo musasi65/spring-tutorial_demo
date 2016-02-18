@@ -16,8 +16,8 @@ public class Route_ID {
     private int route_id;
     private String road_name;
     private String direction;
-    private int start_side_id;
-    private int end_side_id;
+    private int start_site_id;
+    private int end_site_id;
     private int dist;
     private String type;
 
@@ -51,22 +51,22 @@ public class Route_ID {
 
     public int getStartsite() {
 
-        return start_side_id;
+        return start_site_id;
     }
 
-    public void setStartsite(int start_side_id) {
+    public void setStartsite(int start_site_id) {
 
-        this.start_side_id = start_side_id;
+        this.start_site_id = start_site_id;
     }
 
-    public int getENDsite() {
+    public int getEndsite() {
 
-        return end_side_id;
+        return end_site_id;
     }
 
-    public void setENDsite(int end_side_id) {
+    public void setEndsite(int end_site_id) {
 
-        this.end_side_id = end_side_id;
+        this.end_site_id = end_site_id;
     }
 
     public int setDist() {

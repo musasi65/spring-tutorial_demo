@@ -18,8 +18,8 @@ public class JdbcEtc01Repository implements Etc01Repository {
     private JdbcOperations jdbcOperations;
 	//private final static String INSERT_GLOBAL = "INSERT INTO global VALUES(?,?)";
     //private final static String SELECT_GLOBAL_BY_UID = "SELECT * From global WHERE uid=?";
-    private final static String SELECT_Etc01_BY_5mins = "SELECT * From etagtestdata WHERE stag_time>=?";
-    private final static String SELECT_Etc01_BY_2hours = "SELECT * From etagtestdata WHERE stag_time>=?";
+    private final static String SELECT_Etc01_BY_5mins = "SELECT * From etagtestdata WHERE stag_time>=? and station=?";
+    private final static String SELECT_Etc01_BY_2hours = "SELECT TOP 1 * From etagtestdata WHERE stag_time>=? and station=? and epc=? ";
 
     public JdbcEtc01Repository(JdbcOperations jdbcOperations) {
         this.jdbcOperations = jdbcOperations;
@@ -32,20 +32,20 @@ public class JdbcEtc01Repository implements Etc01Repository {
 //		System.out.println("insert: " + row);
 //	}
     @Override
-    public List<Etc01> get5minsdata(Timestamp forlast5minstime) {
+    public List<Etc01> get5minsdata(Timestamp forlast5minstime,int end_site) {
         try {
             return jdbcOperations.query(SELECT_Etc01_BY_5mins,
-                    new Etc01rowMapper(), forlast5minstime);
+                    new Etc01rowMapper(), forlast5minstime,end_site);
         } catch (org.springframework.dao.EmptyResultDataAccessException ex) {
             return null;
         }
     }
 
     @Override
-    public List<Etc01> get2hoursdata(Timestamp forlast2hourstime) {
+    public Etc01 get2hoursdata(Timestamp forlast2hourstime,int start_site, String epc) {
         try {
-            return jdbcOperations.query(SELECT_Etc01_BY_2hours,
-                    new Etc01rowMapper(), forlast2hourstime);
+            return jdbcOperations.queryForObject(SELECT_Etc01_BY_2hours,
+                    new Etc01rowMapper(), forlast2hourstime, start_site,epc);
         } catch (org.springframework.dao.EmptyResultDataAccessException ex) {
             return null;
         }

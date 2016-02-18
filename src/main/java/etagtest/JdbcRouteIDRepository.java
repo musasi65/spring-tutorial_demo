@@ -49,8 +49,8 @@ public class JdbcRouteIDRepository implements RouteIDRepository {
             g.setRoute_id(rs.getInt("route_id"));
             g.setRoad_name(rs.getString("road_name"));
             g.setDirection(rs.getString("direction"));
-            g.setStartsite(rs.getInt("start_side_id"));
-            g.setENDsite(rs.getInt("end_side_id"));
+            g.setStartsite(rs.getInt("start_site_id")); 
+            g.setEndsite(rs.getInt("end_site_id"));
             g.setDist(rs.getInt("dist"));
             g.setType(rs.getString("type"));
 
